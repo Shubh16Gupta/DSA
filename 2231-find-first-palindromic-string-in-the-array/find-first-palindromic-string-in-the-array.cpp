@@ -6,7 +6,8 @@ public:
             string temp = s ;
             reverse(temp.begin(), temp.end()); 
             if(og == temp ){
-                return s ; 
+                return s ;
+                break ;  
             }
         }
         return "";
